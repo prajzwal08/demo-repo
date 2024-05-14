@@ -1,4 +1,4 @@
-# How to connect to Linux 668
+# How to Linux 668
 
 ## Initial Setup
 
