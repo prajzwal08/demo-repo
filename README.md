@@ -33,13 +33,16 @@
      wget https://repo.anaconda.com/archive/Anaconda3-2024.02-1-Linux-x86_64.sh
      ```
   4. Verify the `.sh` file has been downloaded.
+     ```
+     ls -la
+     ```
   5. Install Anaconda:
      ```
      bash Anaconda3-2024.02-1-Linux-x86_64.sh
      ```
      Accept the License Agreement and add Anaconda to PATH.
 
-  6. Source `.bashrc`:
+  7. Source `.bashrc`:
      ```
      cd ~
      source .bashrc
