@@ -89,6 +89,18 @@ Now, in your browser, type the following URL:
 localhost:YYYY
 ```
 
+I prefer using VS Code, and you can connect using the following steps:
+
+1. First, ensure that you have VS Code installed on your local machine.
+
+2. Follow the instructions provided in the link [here](https://carleton.ca/scs/2023/vscode-remote-access-and-code-editing/) to set up remote access and code editing using VS Code.
+
+3. Once set up, you can connect to your remote server using VS Code by following the instructions outlined in the link.
+
+4. This method allows you to seamlessly edit code and access files on your remote server directly from your local VS Code environment.
+
+
+
 Replace YYYY with the port number you chose for your local machine. This should open Jupyter Lab in your browser, allowing you to work with notebooks remotely.
 
 
