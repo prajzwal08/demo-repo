@@ -226,5 +226,18 @@ Logging and email notifications are crucial for several reasons:
 - **Audit Trail**: Logging ensures an audit trail of script execution, aiding in compliance, debugging, and performance analysis.
 - **Communication**: Email notifications serve as a communication channel for conveying important updates and alerts to relevant parties.
 
+# to run .sh file, 
+To run a `.sh` file in Linux, you can follow these steps:
+
+1. **Navigate to the directory containing the `.sh` file**:
+   ```bash
+   cd /path/to/your/directory
+2. **Make the .sh file executable (if it's not already):
+   ```bash
+   chmod +x your_script.sh
+3. **Run the .sh file
+  ```bash
+   ./your_script.sh
+   
 
 
