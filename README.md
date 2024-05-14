@@ -104,4 +104,62 @@ I prefer using VS Code, and you can connect using the following steps:
 Replace YYYY with the port number you chose for your local machine. This should open Jupyter Lab in your browser, allowing you to work with notebooks remotely.
 
 
+## Runnning code incessantly 
+To run code incessantly in Linux, you have two main options: `nohup` and `screen`. Unfortunately, `tmux` is not available, but both `nohup` and `screen` are powerful alternatives.
+
+### Using nohup
+
+```bash
+nohup your_command &
+```
+
+Replace `your_command` with the command you want to run. The `&` at the end runs the command in the background.
+
+```bash
+nohup python script.py &
+```
+
+### Using screen
+
+- **Start a new screen session**: 
+
+```bash
+screen
+```
+
+- **Detach from a screen session**: Press `Ctrl + A` followed by `Ctrl + D`.
+
+- **List active screen sessions**: 
+
+```bash
+screen -ls
+```
+
+- **Reattach to a screen session**: 
+
+```bash
+screen -r session_id
+```
+
+Replace `session_id` with the ID of the screen session you want to reattach to.
+
+- **Example**: Running a long-running process within a screen session:
+
+```bash
+screen
+```
+
+Run your command, e.g., `python script.py`.
+
+- **Detach from the screen session**: Press `Ctrl + A` followed by `Ctrl + D`.
+
+- **Reattach to the screen session later**: 
+
+```bash
+screen -r
+```
+
+Both `nohup` and `screen` are valuable tools for running processes incessantly in Linux, offering flexibility and convenience in managing long-running tasks.
+
+
 
