@@ -243,4 +243,10 @@ To run a `.sh` file in Linux, you can follow these steps:
   ```
    
 
+# By default, your home folder is read and writable by others, 
+If you want to deny permission for others to access your directory (which is a good practice unless you are sharing data), you can use the following one-liner:
 
+```bash
+chmod -R o-rwx <directory_name>
+```
+The directory name would be ur folder in linux668. This  will remove read, write, and execute permissions for others on the specified directory and all of its contents.
