@@ -267,3 +267,13 @@ If you want to deny permission for others to access your directory (which is a g
 chmod -R o-rwx <directory_name>
 ```
 The directory name would be ur folder in linux668. This  will remove read, write, and execute permissions for others on the specified directory and all of its contents.
+
+
+# Copying Files Between Local Machine and Linux Server
+
+## Copying from Local Machine to Linux Server (Upload):
+
+To copy files from your local machine to a Linux server, you can use the `scp` (secure copy) command. Here's the syntax:
+
+```bash
+scp /path/to/local/file remoteuser@remotehost:/path/to/destination/directory
