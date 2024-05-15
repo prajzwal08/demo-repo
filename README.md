@@ -65,7 +65,7 @@ pip install jupyterlab
 Then, start Jupyter Notebook with the following command, specifying a port number (XXXX) of your choice:
 
 ```bash
-jupyter notebook --no-browser --port=XXXX
+jupyter lab --no-browser --port=XXXX
 ```
 
 Choose an available port, typically 8888, 8889, or a similar one.
