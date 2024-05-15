@@ -203,7 +203,7 @@ else
 fi
 
 ```
-## what is happening?
+## what is happening? (ChatGPT et.al)
 This bash script, `runcode.sh`, automates the execution of a Python script `comparemodelninsitu.py` and manages logging and email notifications. Below is a breakdown of its functionality:
 
 1. **Defining Variables**: 
