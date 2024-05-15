@@ -277,3 +277,5 @@ To copy files from your local machine to a Linux server, you can use the `scp` (
 
 ```bash
 scp /path/to/local/file remoteuser@remotehost:/path/to/destination/directory
+```
+Replace /path/to/local/file with the actual path to the file on your local machine, username with your remote on the linux server, server with the IP address or hostname of the Linux server(linux668.itc.utwente.nl), and /path/to/destination/directory with the path to the directory on the Linux server where you want to copy the file.
