@@ -226,6 +226,19 @@ Logging and email notifications are crucial for several reasons:
 - **Audit Trail**: Logging ensures an audit trail of script execution, aiding in compliance, debugging, and performance analysis.
 - **Communication**: Email notifications serve as a communication channel for conveying important updates and alerts to relevant parties.
 
+## Coming up soon...
+
+
+### Adding Entire Code When Job is Completed:
+After completing the task, remember to include the entire code for reference.
+
+### Email Sending Issue:
+Sometimes, the script may not send emails. Investigate and fix any issues related to email sending.
+
+### Timing for Complex Tasks:
+For more complex tasks, accurately measure the time needed to read, process, and write the output file to optimize performance.
+
+
 # to run .sh file, 
 To run a `.sh` file in Linux, you can follow these steps:
 
