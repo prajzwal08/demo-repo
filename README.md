@@ -4,6 +4,10 @@
 
 1. **Get an Account**: Contact Bas for account creation at [v.retsios@utwente.nl](mailto:v.retsios@utwente.nl). Room no 1150.
 
+## Why linux668?
+1. Severely underused resource most of the time.
+2. Can keep jobs running for very very long time. (Check with CRIB).
+3. 128 cores , is it powerful than CRIB?
 
 ## Connection Instructions
 
